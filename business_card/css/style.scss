@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: #017143;  
+}
+
+@media screen and (min-width: 1440px){
+    .circle {
+        clip-path: circle(700px at right);
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1439px) {
+    .circle {
+        clip-path: circle(650px at right);
+    }
+}
+
+@media screen and (min-width: 1120px) and (max-width: 1201px){
+    .circle {
+        clip-path: circle(580px at right);
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1120px) {
+    .circle {
+        clip-path: circle(550px at right);
+    }
+}
+
+@media screen and (min-width: 940px) and (max-width: 1023px) {
+    .circle {
+        clip-path: circle(510px at right);
+    }
+}
+
+@media screen and (min-width: 890px) and (max-width: 940px) {
+    .circle {
+        clip-path: circle(510px at right);
+    }
+}
+
+@media screen and (min-width: 612px) and (max-width: 768px) {
+    .circle {
+        width: 100%;
+        height: 70%;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 611px) {
+    .circle {
+        width: 100%;
+        height: 75%;
+    }
+}
+
+@media screen and (min-width: 407px) and (max-width: 424px) {
+    .circle {
+        width: 100%;
+        height: 65%;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 406px) {
+    .circle {
+        width: 100%;
+        height: 67%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 349px) {
+    .circle {
+        width: 100%;
+        height: 75%;
+    }
+}
+
+@import "_variables";
+@import "_header.scss";
+@import "_main.scss";
+@import "_footer.scss";
