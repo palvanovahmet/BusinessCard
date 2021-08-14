@@ -1,0 +1,131 @@
+main {
+    overflow: hidden;
+    padding-top: 40px;
+}
+
+.main__container {
+    display: flex;
+    justify-content: space-around;
+
+    .profile__picture {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        width: 30%;
+        background: #fff;
+    }
+
+    .about__me__info {
+        position: relative;
+        width: 30%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        .main__offer {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 400px;
+
+            h1 {
+                text-transform: uppercase;
+                font-family: $ff;
+                font-size: 45px;
+                line-height: 40px;
+            }
+            
+            span {
+                text-transform: uppercase;
+                font-family: $ff;
+                font-size: 28px;
+                color: #cf8638;
+            }
+    
+            p {
+                font-family: $ff;
+                font-size: 23px;
+                line-height: 26px;
+                color: #000;
+            }
+    
+            a {
+                text-decoration: underline;
+                text-transform: uppercase;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 20px 55px;
+                background: #e88a4f;
+                width: 120px;
+                color: #fff;
+            }
+
+            a:hover {
+                background: #b3792d;
+            }
+        } 
+    }
+}
+
+.social__network {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    .social {
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+
+        font-family: $ff;
+        .phone {
+            padding-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            span {
+                font-size: 30px;
+                line-height: 40px;
+            }
+        }
+
+        .email {
+            padding-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            span {
+                font-size: 30px;
+                line-height: 40px;
+            }
+        }
+
+
+        .networks {
+            padding-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            span {
+                font-size: 30px;
+                line-height: 40px;
+            }
+        }
+    }
+
+    .social__links {
+
+        ul {
+            padding-top: 15px;
+            display: flex;
+            justify-content: space-around;
+            li {
+                list-style-type: none;
+                a {
+                    
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
