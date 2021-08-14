@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.line {
+    position: absolute;
+    background: #e88a4f;
+    width: 41%;
+    height: 139%;
+}
+
+.wrapper {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+@import '_variables.scss';
+@import '_header.scss';
+@import '_main.scss';
+@import '_footer.scss';
