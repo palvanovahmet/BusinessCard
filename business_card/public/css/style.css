@@ -1,0 +1,397 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.back__gradient {
+  background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+}
+
+.circle {
+  width: 100%;
+  height: 100%;
+}
+
+.profile__picture {
+  width: 100%;
+  height: auto;
+}
+
+header {
+  padding-top: 40px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.header__container .logo {
+  font-size: 26px;
+  font-family: "Indie Flower", cursive;
+  line-height: 20px;
+  font-weight: bold;
+}
+.header__container .header__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__container .header__links .header__menu {
+  display: flex;
+}
+.header__container .header__links .header__menu .menu__item {
+  list-style-type: none;
+  padding-right: 15px;
+}
+.header__container .header__links .header__menu .menu__item .links {
+  font-family: "Indie Flower", cursive;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+}
+.header__container .header__links .header__menu .menu__item:last-child {
+  padding-right: 0px;
+}
+
+main {
+  overflow: hidden;
+}
+
+.main__container {
+  padding-top: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+.main__container .about__me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 350px;
+  width: 43%;
+}
+.main__container .about__me span {
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Indie Flower", cursive;
+  margin-bottom: 40px;
+}
+.main__container .about__me p {
+  text-align: justify;
+  font-size: 20px;
+  font-family: "Indie Flower", cursive;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+.main__container .about__me a {
+  width: 150px;
+  height: 24px;
+  text-align: center;
+  display: inline-block;
+  padding: 8px 20px;
+  background: #000;
+  color: #fff;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .wrapper {
+    width: 1324px;
+    margin: 0 auto;
+  }
+
+  .avatar {
+    padding-right: 150px;
+  }
+}
+@media screen and (min-width: 1202px) and (max-width: 1439px) {
+  .wrapper {
+    width: 1101px;
+    margin: 0 auto;
+  }
+
+  .about__me {
+    width: 470px;
+  }
+}
+@media screen and (min-width: 1120px) and (max-width: 1201px) {
+  .wrapper {
+    width: 1040px;
+    margin: 0 auto;
+  }
+
+  .about__me {
+    width: 470px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1119px) {
+  .wrapper {
+    width: 964px;
+    margin: 0 auto;
+  }
+
+  .main__container {
+    padding-top: 70px;
+  }
+
+  .about__me {
+    width: 470px;
+  }
+}
+@media screen and (min-width: 941px) and (max-width: 1023px) {
+  .wrapper {
+    width: 890px;
+    margin: 0 auto;
+  }
+
+  .main__container {
+    padding-top: 60px;
+  }
+  .main__container .about__me {
+    height: auto;
+    width: 400px;
+  }
+  .main__container .about__me span {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Indie Flower", cursive;
+    margin-bottom: 30px;
+  }
+  .main__container .about__me p {
+    font-size: 20px;
+    font-family: "Indie Flower", cursive;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 890px) and (max-width: 940px) {
+  .wrapper {
+    width: 850px;
+    margin: 0 auto;
+  }
+
+  .main__container {
+    padding-top: 60px;
+  }
+  .main__container .about__me {
+    height: auto;
+    width: 350px;
+  }
+  .main__container .about__me span {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Indie Flower", cursive;
+    margin-bottom: 30px;
+  }
+  .main__container .about__me p {
+    font-size: 20px;
+    font-family: "Indie Flower", cursive;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 890px) {
+  .wrapper {
+    width: 738px;
+    margin: 0 auto;
+  }
+
+  .main__container {
+    padding-top: 60px;
+  }
+  .main__container .about__me {
+    height: auto;
+  }
+}
+@media screen and (min-width: 612px) and (max-width: 768px) {
+  .wrapper {
+    width: 571px;
+    margin: 0 auto;
+  }
+
+  .main__container {
+    position: relative;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+  .main__container .about__me {
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+  }
+  .main__container .about__me span {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "Indie Flower", cursive;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .main__container .about__me p {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Indie Flower", cursive;
+    line-height: 24px;
+    margin-bottom: 40px;
+  }
+  .main__container .about__me a {
+    margin: 0 auto;
+    width: 150px;
+    height: 24px;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 20px;
+    background: #c9d8f0;
+    color: #000;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 611px) {
+  .wrapper {
+    width: 405px;
+    margin: 0 auto;
+  }
+
+  .main__container {
+    position: relative;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+  .main__container .about__me {
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+  }
+  .main__container .about__me span {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "Indie Flower", cursive;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .main__container .about__me p {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Indie Flower", cursive;
+    line-height: 24px;
+    margin-bottom: 40px;
+  }
+  .main__container .about__me a {
+    margin: 0 auto;
+    width: 150px;
+    height: 24px;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 20px;
+    background: #c9d8f0;
+    color: #000;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .main__container {
+    padding-top: 50px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .main__container .about__me {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .main__container .about__me span {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Indie Flower", cursive;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .main__container .about__me p {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Indie Flower", cursive;
+    line-height: 24px;
+    margin-bottom: 40px;
+  }
+  .main__container .about__me a {
+    margin: 0 auto;
+    width: 150px;
+    height: 24px;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 20px;
+    background: #c9d8f0;
+    color: #000;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-bottom: 30px;
+  }
+  .main__container .profile__picture {
+    width: 205px;
+    margin: 0 auto;
+  }
+}
+footer {
+  padding-top: 20px;
+  height: auto;
+}
+footer .social__network {
+  display: flex;
+}
+footer .social__network li {
+  list-style-type: none;
+  padding: 20px;
+}
+footer .social__network a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .footer__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.background {
+  background: url(noise_lines_transparent@2X.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+}
+
+.display {
+  padding-top: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduction {
+  margin-top: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
