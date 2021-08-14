@@ -1,0 +1,80 @@
+header {
+    position: relative;
+    overflow: hidden;
+    padding-top: 30px;
+}
+
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+
+    //HEADER--LEFT
+    .header__logo {
+        display: flex;
+        align-items: center;
+        // justify-content: center;
+        
+        .header__line {
+            margin-left: 10px;
+            margin-right: 10px;
+            width: 2px;
+            height: 100%;
+            background: #000;
+        }
+
+        .header__brand__name {
+            font-family: $ff__info;
+            font-size: $fz__header;
+            line-height: 24px;
+            color: #fff;
+        }
+    }
+
+
+    //HEADER--RIGHT
+    .header__links {
+        .menu__items {
+            display: flex;
+
+            .menu__list {
+                list-style-type: none;
+                padding-right: 25px;
+
+                .links {
+                    text-decoration: none;
+                    color:#000;
+                    font-size: $fz__links;
+                    font-family: $ff;
+                    cursor: pointer;
+                }
+
+                // .current__link {
+                //     color:#000;
+                //     text-decoration: underline;
+                //     font-size: $fz__links;
+                //     font-family: $ff;
+                //     cursor: pointer;
+                // }
+
+                // .current__link:hover {
+                //     // background: radial-gradient(circle farthest-corner at 100px 50px, #FBF2EB, #352A3B);
+                //     background: #b3792d;
+                // }
+
+                .links:hover {
+                    // background: radial-gradient(circle farthest-corner at 100px 50px, #FBF2EB, #352A3B);
+                    background: #b3792d;
+                }
+            }
+
+            .menu__list:last-child {
+                padding-right: 0px;
+            }
+
+        }
+    }
+}
+
+
+

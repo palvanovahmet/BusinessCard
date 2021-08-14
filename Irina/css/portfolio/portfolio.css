@@ -74,112 +74,52 @@ header {
 }
 
 main {
-  padding-top: 40px;
-  left: 10%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  padding-top: 30px;
   position: relative;
+}
+
+main .wrapper {
+  display: flex;
+  width: 1300px;
+  position: relative;
+}
+
+.main__title {
+  margin-left: 4.5%;
+  font-size: "Recursive", sans-serif;
+  font-size: 30px;
+  color: #000;
+  margin-bottom: 30px;
 }
 
 .main__container {
-  margin-bottom: 40px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 250px;
-}
-.main__container h1 {
-  font-family: "Recursive", sans-serif;
-  font-size: 40px;
-  text-transform: uppercase;
-}
-.main__container p {
-  font-family: "Recursive", sans-serif;
-  font-size: 20px;
-  color: #000;
-  line-height: 26px;
-}
-
-.soft__skills {
+  height: 480px;
+  margin-top: -15%;
+  /* top: -26%; */
   position: relative;
-  left: 4.5%;
+  left: 30%;
+}
+.main__container .first__column__project, .main__container .second__column__project {
   display: flex;
-  width: 60%;
   justify-content: space-between;
-  text-transform: uppercase;
+  width: 700px;
+  height: 300px;
 }
-.soft__skills .education {
-  width: auto;
-  height: 350px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.soft__skills .education h1 {
-  font-family: "Recursive", sans-serif;
-  font-size: 50px;
-  padding-bottom: 30px;
-}
-.soft__skills .education span {
-  font-weight: bold;
-  padding-bottom: 10px;
-}
-.soft__skills .education .university, .soft__skills .education .another__education {
-  height: 150px;
+.main__container .first__column__project .projects, .main__container .second__column__project .projects {
   display: flex;
   flex-direction: column;
 }
-
-.skills {
-  display: flex;
-  flex-direction: column;
-}
-.skills h1 {
-  padding-bottom: 10px;
-  font-family: "Recursive", sans-serif;
-  font-size: 50px;
-}
-.skills .progress {
-  padding-bottom: 20px;
-  width: 400px;
-  justify-content: space-between;
-  display: flex;
-}
-.skills .progress__bar {
-  display: flex;
-  background: #ffc175;
-  width: 250px;
-}
-.skills .progress__bar .photoshop {
-  width: 100%;
-  background: #e88a4f;
-}
-.skills .progress__bar .figma {
-  width: 80%;
-  background: #e88a4f;
-}
-.skills .progress__bar .illustrator {
-  width: 70%;
-  background: #e88a4f;
-}
-.skills .progress__bar .tilda {
-  width: 93%;
-  background: #e88a4f;
-}
-.skills .progress__bar .html, .skills .progress__bar .css {
-  width: 50%;
-  background: #e88a4f;
+.main__container .first__column__project .projects .project__container, .main__container .second__column__project .projects .project__container {
+  width: 300px;
+  height: 200px;
+  background: red;
 }
 
 .social__network {
   display: flex;
-  position: absolute;
-  left: 0;
-  margin-left: -2.5%;
-  margin-bottom: -14%;
+  position: relative;
   flex-direction: column;
   justify-content: flex-end;
 }

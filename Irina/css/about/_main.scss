@@ -1,51 +1,128 @@
 main {
-    padding-top: 30px;
-    position: relative;
-}
-
-main .wrapper {
+    padding-top: 40px;
+    left: 10%;
+    width: 100%;
     display: flex;
-    width: 1300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     position: relative;
-}
-
-.main__title {
-    margin-left: 4.5%;
-    font-size: $ff;
-    font-size: 30px;
-    color: #000;
-    margin-bottom: 30px;
 }
 
 .main__container {
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
-    height: 480px;
-    margin-top: -15%;
-    /* top: -26%; */
+    justify-content: space-between;
+    height: 250px;
+
+    h1 {
+        font-family: $ff;
+        font-size: 40px;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-family: $ff;
+        font-size: 20px;
+        color: #000;
+        line-height: 26px;
+    }
+}
+
+.soft__skills {
     position: relative;
-    left: 30%;
-    .first__column__project, .second__column__project {
+    left: 4.5%;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    text-transform: uppercase;
+
+    // EDUCATION
+    .education {
+        width: auto;
+        height: 350px;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
-        width: 700px;
-        height: 300px;
-        .projects {
+
+        h1 {
+            font-family: $ff;
+            font-size: 50px;
+            padding-bottom: 30px;
+        }
+        
+        span {
+            font-weight: bold;
+            padding-bottom: 10px;
+        }
+
+        .university, .another__education {
+            height: 150px;
             display: flex;
             flex-direction: column;
-
-            .project__container {
-                width: 300px;
-                height: 200px;
-                background: red;
-            }
+            // justify-content: space-between;
         }
     }
 }
 
+// SKILLS
+
+.skills {
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        padding-bottom: 10px;
+        font-family: $ff;
+        font-size: 50px;
+    }
+
+    .progress {
+        padding-bottom: 20px;
+        width: 400px;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .progress__bar {
+        display: flex;
+        background: #ffc175;
+        width: 250px;
+
+        .photoshop {
+            width: 100%;
+            background: #e88a4f;
+        }
+
+        .figma {
+            width: 80%;
+            background: #e88a4f;
+        }
+
+        .illustrator {
+            width: 70%;
+            background: #e88a4f;
+        }
+
+        .tilda {
+            width: 93%;
+            background: #e88a4f;
+        }
+
+        .html, .css {
+            width: 50%;
+            background: #e88a4f;
+        }
+    }
+}  
+
 .social__network {
     display: flex;
-    position: relative;
+    position: absolute;
+    left: 0;
+    margin-left: -2.5%;
+    margin-bottom: -14%;
     flex-direction: column;
     justify-content: flex-end;
 
