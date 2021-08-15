@@ -78,7 +78,7 @@ header {
   position: relative;
 }
 
-.portfolio .wrapper {
+.portfolio > .wrapper {
   display: flex;
   width: 1300px;
   position: relative;
@@ -99,7 +99,7 @@ header {
   margin-top: -15%;
   /* top: -26%; */
   position: relative;
-  left: 30%;
+  left: 3%;
 }
 .main__container__portfolio .first__column__project, .main__container__portfolio .second__column__project {
   display: flex;
@@ -118,6 +118,7 @@ header {
 }
 
 .social__network__portfolio {
+  left: -5.5%;
   display: flex;
   position: relative;
   flex-direction: column;

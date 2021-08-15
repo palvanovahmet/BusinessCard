@@ -3,7 +3,7 @@ main {
     position: relative;
 }
 
-main .wrapper {
+main > .wrapper {
     display: flex;
     width: 1300px;
     position: relative;

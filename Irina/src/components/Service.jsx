@@ -1,7 +1,7 @@
 function Service() {
     return (
         <div className="background">
-            <div class="line">
+            <div class="line__service">
 
 </div>
 <header>
