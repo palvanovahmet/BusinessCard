@@ -52,14 +52,14 @@ header {
 .header__container .header__links .menu__items .menu__list .links {
   text-decoration: none;
   color: #000;
-  font-size: 30px;
+  font-size: 23px;
   font-family: "Recursive", sans-serif;
   cursor: pointer;
 }
 .header__container .header__links .menu__items .menu__list .current__link {
   color: #000;
   text-decoration: underline;
-  font-size: 30px;
+  font-size: 23px;
   font-family: "Recursive", sans-serif;
   cursor: pointer;
 }
@@ -73,9 +73,9 @@ header {
   padding-right: 0px;
 }
 
-.service {
+main {
   padding-top: 40px;
-  left: 10%;
+  left: 5%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -84,81 +84,114 @@ header {
   position: relative;
 }
 
-.main__container__service {
+.main__container__contacts {
+  margin-bottom: 40px;
   display: flex;
   flex-direction: column;
-  padding-bottom: 100px;
-  height: auto;
-  width: 60%;
+  justify-content: space-between;
+  height: 500px;
 }
-.main__container__service h1 {
+.main__container__contacts .discuss {
+  height: 550px;
+  border: 5px solid #000;
+  padding: 10px 50px 10px 50px;
+  display: flex;
+  flex-direction: column;
+}
+.main__container__contacts .discuss h1 {
   font-family: "Recursive", sans-serif;
-  color: #000;
   font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.main__container__contacts .discuss .input__line {
+  width: 100%;
+  height: 2px;
+  background: #000;
+}
+.main__container__contacts .discuss .default {
+  background: transparent;
+  font-size: 20px;
+  font-family: "Recursive", sans-serif;
+  border: 0px;
+  margin: 15px 0px 15px 0px;
+  width: 100%;
+  height: 100px;
+}
+.main__container__contacts .discuss .business {
+  background: transparent;
+  font-family: "Recursive", sans-serif;
+  font-size: 20px;
+  margin: 15px 0px 15px 0px;
+  width: 100%;
+  height: 90%;
+}
+.main__container__contacts .discuss .confirm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e88a4f;
+  width: 100%;
+  height: 160px;
+  font-size: 26px;
+  font-family: "Recursive", sans-serif;
+  padding: 10px auto;
+  color: #fff;
+  cursor: pointer;
+  border: 0px;
 }
 
-.service__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.service__container .column {
-  display: flex;
-  justify-content: space-between;
-}
-
-.social__network__service {
+.social__network__contacts {
   display: flex;
   position: absolute;
-  left: 0;
-  margin-left: -2.5%;
+  left: 3%;
   margin-bottom: -14%;
   flex-direction: column;
   justify-content: flex-end;
 }
-.social__network__service .social {
+.social__network__contacts .social {
   height: 40%;
   display: flex;
   flex-direction: column;
   font-family: "Recursive", sans-serif;
 }
-.social__network__service .social .phone {
+.social__network__contacts .social .phone {
   padding-bottom: 30px;
   display: flex;
   flex-direction: column;
 }
-.social__network__service .social .phone span {
-  font-size: 26px;
+.social__network__contacts .social .phone span {
+  font-size: 23px;
   line-height: 40px;
 }
-.social__network__service .social .email {
+.social__network__contacts .social .email {
   padding-bottom: 30px;
   display: flex;
   flex-direction: column;
 }
-.social__network__service .social .email span {
-  font-size: 26px;
+.social__network__contacts .social .email span {
+  font-size: 23px;
   line-height: 40px;
 }
-.social__network__service .social .networks {
+.social__network__contacts .social .networks {
   padding-bottom: 20px;
   display: flex;
   flex-direction: column;
 }
-.social__network__service .social .networks span {
-  font-size: 26px;
+.social__network__contacts .social .networks span {
+  font-size: 23px;
   line-height: 40px;
 }
-.social__network__service .social__links ul {
+.social__network__contacts .social__links ul {
   padding-top: 15px;
   display: flex;
   justify-content: space-around;
 }
-.social__network__service .social__links ul li {
+.social__network__contacts .social__links ul li {
   list-style-type: none;
 }
-.social__network__service .social__links ul li a {
+.social__network__contacts .social__links ul li a {
   text-decoration: none;
 }
 
-/*# sourceMappingURL=service.css.map */
+/*# sourceMappingURL=contacts.css.map */

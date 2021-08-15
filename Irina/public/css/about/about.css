@@ -73,7 +73,7 @@ header {
   padding-right: 0px;
 }
 
-main {
+.about {
   padding-top: 40px;
   left: 10%;
   width: 100%;
@@ -84,19 +84,19 @@ main {
   position: relative;
 }
 
-.main__container {
+.main__container__about {
   margin-bottom: 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 250px;
 }
-.main__container h1 {
+.main__container__about h1 {
   font-family: "Recursive", sans-serif;
   font-size: 40px;
   text-transform: uppercase;
 }
-.main__container p {
+.main__container__about p {
   font-family: "Recursive", sans-serif;
   font-size: 20px;
   color: #000;
@@ -174,7 +174,7 @@ main {
   background: #e88a4f;
 }
 
-.social__network {
+.social__network__about {
   display: flex;
   position: absolute;
   left: 0;
@@ -183,48 +183,48 @@ main {
   flex-direction: column;
   justify-content: flex-end;
 }
-.social__network .social {
+.social__network__about .social {
   height: 40%;
   display: flex;
   flex-direction: column;
   font-family: "Recursive", sans-serif;
 }
-.social__network .social .phone {
+.social__network__about .social .phone {
   padding-bottom: 30px;
   display: flex;
   flex-direction: column;
 }
-.social__network .social .phone span {
+.social__network__about .social .phone span {
   font-size: 23px;
   line-height: 40px;
 }
-.social__network .social .email {
+.social__network__about .social .email {
   padding-bottom: 30px;
   display: flex;
   flex-direction: column;
 }
-.social__network .social .email span {
+.social__network__about .social .email span {
   font-size: 23px;
   line-height: 40px;
 }
-.social__network .social .networks {
+.social__network__about .social .networks {
   padding-bottom: 20px;
   display: flex;
   flex-direction: column;
 }
-.social__network .social .networks span {
+.social__network__about .social .networks span {
   font-size: 23px;
   line-height: 40px;
 }
-.social__network .social__links ul {
+.social__network__about .social__links ul {
   padding-top: 15px;
   display: flex;
   justify-content: space-around;
 }
-.social__network .social__links ul li {
+.social__network__about .social__links ul li {
   list-style-type: none;
 }
-.social__network .social__links ul li a {
+.social__network__about .social__links ul li a {
   text-decoration: none;
 }
 

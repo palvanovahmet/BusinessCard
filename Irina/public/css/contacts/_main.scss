@@ -1,0 +1,137 @@
+main {
+    padding-top: 40px;
+    left: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.main__container__contacts {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+
+    .discuss {
+        height: 550px;
+        border: 5px solid #000;
+        padding: 10px 50px 10px 50px;
+        display: flex;
+        flex-direction: column;
+        h1 {
+            font-family: $ff;
+            font-size: 40px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        
+        .input__line {
+            width: 100%;
+            height: 2px;
+            background: #000;
+        }
+
+        .default { 
+            background: transparent;
+            font-size: 20px;
+            font-family: $ff;
+            border: 0px;
+            margin: 15px 0px 15px 0px;
+            width: 100%;
+            height: 100px;
+        }
+
+        .business {
+            background: transparent;
+            font-family: $ff;
+            font-size: 20px;
+            margin: 15px 0px 15px 0px;
+            width: 100%;
+            height: 90%;
+        }
+
+        .confirm {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #e88a4f;
+            width: 100%;
+            height: 160px;
+            font-size: 26px;
+            font-family: $ff;
+            padding: 10px auto;
+            color: #fff;
+            cursor: pointer;
+            border: 0px;
+        }
+    }
+}
+
+
+.social__network__contacts {
+    display: flex;
+    position: absolute;
+    left: 3%;
+    // margin-left: -2.5%;
+    margin-bottom: -14%;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    .social {
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+
+        font-family: $ff;
+        .phone {
+            padding-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            span {
+                font-size: $fz__social__links;
+                line-height: 40px;
+            }
+        }
+
+        .email {
+            padding-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            span {
+                font-size: $fz__social__links;
+                line-height: 40px;
+            }
+        }
+
+
+        .networks {
+            padding-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            span {
+                font-size: $fz__social__links;
+                line-height: 40px;
+            }
+        }
+    }
+
+    .social__links {
+
+        ul {
+            padding-top: 15px;
+            display: flex;
+            justify-content: space-around;
+            li {
+                list-style-type: none;
+                a {
+                    
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

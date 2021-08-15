@@ -30,8 +30,8 @@ function About() {
                     </div>
                 </header>
 
-        <main>
-            <div class="social__network">
+        <main class="about">
+            <div class="social__network__about">
                 <div class="social">
                     <div class="phone">
                         <span>Phone</span>
@@ -60,7 +60,7 @@ function About() {
         </div>
 
         
-        <div class="main__container">
+        <div class="main__container__about">
             <h1>About</h1>
             <p>I'm Irina Pavlova, web designer with 3 years of experience. I'm 24 years<br/>old, during my work in digital, I passed the stage from a beginner<br/>a senior designer.</p>
             <p>I create turkney sites and design pages in a social networks. It is possible to<br/>create a site in Tilda, or layout of the program code depending on the<br/>task and the brief.</p>

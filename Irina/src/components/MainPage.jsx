@@ -1,4 +1,4 @@
-function Test() {
+function MainPage() {
     return (
         <div>
             <p>Hello world</p>
@@ -6,4 +6,4 @@ function Test() {
     );
 }
 
-export default Test;
+export default MainPage;
