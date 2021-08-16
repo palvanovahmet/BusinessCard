@@ -1,22 +1,25 @@
 import './App.css';
-import MainPage from './components/MainPage.jsx';
-import About from './components/About.jsx';
-import Portfolio from './components/Portfolio.jsx';
-import Service from './components/Service.jsx';
-import Contacts from './components/Contacts.jsx';
+import MainPage from './components/MainPage';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Service from './components/Service';
+import Contacts from './components/Contacts';
+// import Header from './components/Header';
 
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+
+import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
 
 function App() {
   return (
     <Router>
-      <Switch>
+      {/* <Switch> */}
+        {/* <Route path="/" component={Header}/> */}
         <Route exact path="/" component={MainPage}/>
         <Route exact path="/about" component={About}/>
         <Route exact path="/portfolio" component={Portfolio}/>
         <Route exact path="/service" component={Service}/>
         <Route exact path="/contacts" component={Contacts}/>
-      </Switch>
+      {/* </Switch> */}
     </Router>
   );
 }
