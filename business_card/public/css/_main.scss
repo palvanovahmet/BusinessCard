@@ -1,8 +1,8 @@
-main {
+.mainPage {
     overflow: hidden;
 }
 
-.main__container {
+.main__container__home {
     padding-top: 120px;
     // @extend .wrapper;
     // @extend .display;
@@ -32,13 +32,13 @@ main {
         }
 
         a {
-            width: 150px;
-            height: 24px;
+            width: 200px;
+            height: 30px;
+            background: #000;
+            color: #fff;
             text-align: center;
             display: inline-block;
             padding: 8px 20px;
-            background: #000;
-            color: #fff;
             border-radius: 40px;
             font-weight: 500;
             letter-spacing: 1px;
@@ -131,7 +131,7 @@ main {
         margin: 0 auto;
     }
 
-    .main__container {
+    .main__container__home {
         padding-top: 60px;
        
         .about__me {
@@ -160,7 +160,7 @@ main {
         margin: 0 auto;
     }
 
-    .main__container {
+    .main__container__home {
         padding-top: 60px;
 
         .about__me {
@@ -175,7 +175,7 @@ main {
         margin: 0 auto;
     }
 
-    .main__container {
+    .main__container__home {
         position: relative;
         padding-top: 60px;
         display: flex;
@@ -207,13 +207,13 @@ main {
     
             a {
                 margin: 0 auto;
-                width: 150px;
-                height: 24px;
+                width: 200px;
+                height: 30px;
+                background: #000;
+                color: #fff;
                 text-align: center;
                 display: inline-block;
-                padding: 8px 20px;
-                background: #c9d8f0;
-                color: #000;
+                padding: 8px 20px; 
                 border-radius: 40px;
                 font-weight: 500;
                 letter-spacing: 1px;
@@ -231,7 +231,7 @@ main {
         margin: 0 auto;
     }
 
-    .main__container {
+    .main__container__home {
         position: relative;
         padding-top: 60px;
         display: flex;
@@ -263,13 +263,13 @@ main {
     
             a {
                 margin: 0 auto;
-                width: 150px;
-                height: 24px;
+                width: 200px;
+                height: 30px;
+                background: #000;
+                color: #fff;
                 text-align: center;
                 display: inline-block;
                 padding: 8px 20px;
-                background: #c9d8f0;
-                color: #000;
                 border-radius: 40px;
                 font-weight: 500;
                 letter-spacing: 1px;
@@ -282,7 +282,7 @@ main {
 
 @media screen and (min-width: 320px) and (max-width: 425px) {
 
-    .main__container {
+    .main__container__home {
         padding-top: 50px;
         flex-direction: column;
         display: flex;
@@ -314,13 +314,13 @@ main {
     
             a {
                 margin: 0 auto;
-                width: 150px;
-                height: 24px;
+                width: 200px;
+                height: 30px;
+                background: #000;
+                color: #fff;
                 text-align: center;
                 display: inline-block;
                 padding: 8px 20px;
-                background: #c9d8f0;
-                color: #000;
                 border-radius: 40px;
                 font-weight: 500;
                 letter-spacing: 1px;

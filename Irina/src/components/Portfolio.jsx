@@ -1,3 +1,5 @@
+import ProjectsComponents from './ProjectsComponents';
+
 function Portfolio() {
     return(
         <div className="background">
@@ -67,38 +69,13 @@ function Portfolio() {
     <div class="main__container__portfolio">
         <div class="first__column__project">
             {/* <!-- FIRST PROJECT DIV --> */}
-            <div class="projects">
+            {/* <div class="projects">
                 <div class="project__container">
 
                 </div>
                 <p>Project Name</p>
-            </div>
-
-            {/* <!-- SECOND PROJECT DIV --> */}
-            <div class="projects">
-                <div class="project__container">
-
-                </div>
-                <p>Project Name</p>
-            </div> 
-        </div>
-
-        <div class="second__column__project">
-            {/* <!-- THIRD PROJECT DIV --> */}
-            <div class="projects">
-                <div class="project__container">
-
-                </div>
-                <p>Project Name</p>
-            </div>
-
-            {/* <!-- FOUR PROJECT DIV --> */}
-            <div class="projects">
-                <div class="project__container">
-
-                </div>
-                <p>Project Name</p>
-            </div>
+            </div> */}
+            <ProjectsComponents/>
         </div>
     </div>
     </main>

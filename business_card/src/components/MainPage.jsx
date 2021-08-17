@@ -1,47 +1,13 @@
-
-
 function MainPage() {
     return (
-
     <div class="back__gradient">
-        <header>
+        <main class="mainPage">
             <div class="wrapper">
-                <div class="header__container">
-                    <div class="logo">
-                        <span>Portfolio</span>
-                    </div>
-        
-                    <div class="header__links">
-                        <nav class="menu">
-    
-                            <div class="burger__menu">
-                                <span class="burger__line"></span>
-                            </div>
-    
-                            <ul class="header__menu">
-                                <li class="menu__item"><a href="#" class="links">Портфолио</a></li>
-                                <li class="menu__item"><a href="#" class="links">О себе</a></li>
-                                <li class="menu__item"><a href="#" class="links">Контакты</a></li>
-                                <li class="menu__item"><a href="#" class="links">Услуги</a></li>
-                            </ul>
-    
-                            <div class="burger__overlay">
-    
-                            </div>
-    
-                        </nav>
-                    </div>
-                </div>
-            </div> 
-        </header>
-    
-        <main>
-            <div class="wrapper">
-                <div class="main__container">
+                <div class="main__container__home">
                     <div class="about__me">
                         <span>Меня зовут Иван Иванов Иванович</span>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Ratione accusamus voluptatem impedit tempora quod ad perspiciatis veritatis atque! Odit possimus id quibusdam molestias minima iure accusamus atque nesciunt inventore obcaecati.</p>
-                        <a href="#">Подробно обо мне</a>
+                        <a href="/about">Подробно обо мне</a>
                     </div>
                     
                     <div class="avatar">
@@ -64,18 +30,6 @@ function MainPage() {
                 </div>
             </div>
         </main>
-
-        {/* <footer>
-            <div class="wrapper">
-                <div class="footer__container">
-                    <ul class="social__network">
-                        <li><a href="#"><img src="assets/facebook.png"></a></li>
-                        <li><a href="#"><img src="assets/twitter.png"></a></li>
-                        <li><a href="#"><img src="assets/instagram.png"></a></li>
-                    </ul>
-                </div>
-            </div>  
-        </footer>     */}  
     </div>
     );
 }
