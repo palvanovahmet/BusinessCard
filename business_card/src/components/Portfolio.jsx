@@ -2,7 +2,6 @@ import ProjectComponents from './ProjectComponents';
 
 function Portfolio() {
     return (
-        <div className="back__gradient">
             <main class="portfolio">
                 <div className="wrapper">
                     <div class="main__title__portfolio">
@@ -23,7 +22,6 @@ function Portfolio() {
                     </div>
                 </div>  
             </main>
-        </div>
     );
 }
 

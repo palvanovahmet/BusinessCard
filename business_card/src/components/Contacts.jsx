@@ -1,6 +1,5 @@
 function Contacts() {
     return (
-        <div className="back__gradient">
             <main class="main__contacts">
                 <div class="main__container__contacts">
                     <form class="discuss">
@@ -71,8 +70,7 @@ function Contacts() {
                     </div>
                     </div>   
                 </div>
-            </main>
-         </div>        
+            </main>       
     );
 }
 

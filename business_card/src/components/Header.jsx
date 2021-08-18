@@ -1,6 +1,5 @@
 function Header() {
     return(
-        <div className="back__gradient">
             <header>
             <div class="wrapper">
                 <div class="header__container">
@@ -32,8 +31,7 @@ function Header() {
                     </div>
                 </div>
             </div> 
-        </header>
-        </div>
+        </header>    
     );
 }
 

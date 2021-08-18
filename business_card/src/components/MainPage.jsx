@@ -1,6 +1,5 @@
 function MainPage() {
     return (
-    <div class="back__gradient">
         <main class="mainPage">
             <div class="wrapper">
                 <div class="main__container__home">
@@ -30,7 +29,6 @@ function MainPage() {
                 </div>
             </div>
         </main>
-    </div>
     );
 }
 

@@ -1,6 +1,5 @@
 function AboutMe() {
     return (
-        <div class="back__gradient">
             <main class="main__about__me">
                 <div className="wrapper">
                     <div className="main__container__about__me">
@@ -85,7 +84,6 @@ function AboutMe() {
                 </div>
             </div>
             </main>
-        </div>
     );
 }
 

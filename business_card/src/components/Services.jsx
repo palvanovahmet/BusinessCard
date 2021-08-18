@@ -1,6 +1,5 @@
 function Services() {
     return (
-        <div className="back__gradient">
             <main class="services">
                 <div className="wrapper">
                     <div className="services__container">
@@ -97,7 +96,6 @@ function Services() {
                     </div>
                 </div>
             </main>
-        </div>
     );
 }
 
