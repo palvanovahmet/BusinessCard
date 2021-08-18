@@ -4,7 +4,7 @@ function NotFound() {
             <div className="wrapper">
             <div className="error__container">
                 <div className="error__picture">
-                <img src="../../public/assets/picture.jpg"/>
+                <img class="notice__picture" src="./assets/picture.jpg" />
                 </div>
 
                 <div className="error__text">

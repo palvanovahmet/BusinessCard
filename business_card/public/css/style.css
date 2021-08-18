@@ -404,6 +404,10 @@ header {
   display: flex;
   justify-content: space-around;
 }
+.error__container .notice__picture {
+  width: 600px;
+  height: 500px;
+}
 .error__container .error__picture {
   width: 40%;
   height: auto;

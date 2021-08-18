@@ -416,6 +416,11 @@
     display: flex;
     justify-content: space-around;
 
+    .notice__picture {
+        width: 600px;
+        height: 500px;
+    }
+
     .error__picture {
         width: 40%;
         height: auto;
