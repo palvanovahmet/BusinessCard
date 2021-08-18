@@ -12,7 +12,7 @@ function AboutMe() {
 
                         <div className="skills__about__me">
                             <div class="education">
-                             <h1>educations</h1>
+                                <h1>educations</h1>
                                 <div class="university">
                                     <span>Designer</span>
                                     <p>Tyumen state university<br/>of Architecture</p>
@@ -34,7 +34,7 @@ function AboutMe() {
                                         <div class="photoshop">
                                     </div>
                                 </div>
-                        </div>
+                         </div>
 
                         <div class="progress">
                             <h4>Figma</h4>

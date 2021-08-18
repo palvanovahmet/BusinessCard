@@ -1,6 +1,7 @@
         // ******************HOMEPAGE***************//
 .mainPage {
     overflow: hidden;
+    padding-top: 33px;
 }
 
 .main__container__home {
@@ -277,6 +278,110 @@
             border: 1px solid #000;
         }
 }
+
+
+
+// ******************PORTFOLIO PAGE***************//
+
+.portfolio {
+    padding-top: 100px;
+}
+
+.portfolio > .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__container__portfolio {
+    border: 2px solid #000;
+    padding: 40px;
+}
+
+
+// ******************SERVICE PAGE***************//
+
+.services {
+    overflow: hidden;
+    padding-top: 70px;
+}
+
+.services__container {
+    display: flex;
+    flex-direction: column;
+
+    .service__title {
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .service__info {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+
+        .service__card {
+            width: 300px;
+            height: 320px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .service__price {
+                font-size: 26px;
+                font-family: $ff;
+                font-weight: bold;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .service__offer {
+                font-family: $ff;
+                display: flex;
+                flex-direction: column;
+                height: 100px;
+                justify-content: space-between;
+
+                .duration, .number__of__photos, .consultation{
+                    font-size: 20px;
+                    display: flex;
+                    justify-content: space-between;
+                    border-bottom: 2px solid #000;
+                }
+            }
+
+            
+            .button {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                .submit__service {
+                    background: #000;
+                    color: #fff;
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    font-family: $ff;
+                    width: 50%;
+                    height: 40px;
+                }
+            }
+            
+        }
+
+        .service__card:hover {
+            padding: 15px;
+            border: 5px solid #000;
+        }
+    }
+}
+
+
 
 @media screen and (min-width: 1440px){
     .wrapper {
