@@ -393,6 +393,36 @@ header {
   border: 5px solid #000;
 }
 
+.error {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error__container {
+  display: flex;
+  justify-content: space-around;
+}
+.error__container .error__picture {
+  width: 40%;
+  height: auto;
+}
+.error__container .error__text {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+.error__container .error__text h1 {
+  font-size: 32px;
+}
+.error__container .error__text span, .error__container .error__text p {
+  font-size: 24px;
+}
+
 @media screen and (min-width: 1440px) {
   .wrapper {
     width: 1324px;
