@@ -1,8 +1,10 @@
         // ******************HOMEPAGE***************//
 .mainPage {
     overflow: hidden;
-    padding-top: 33px;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main__container__home {
@@ -53,7 +55,9 @@
  // ******************ABOUT ME PAGE***************//
 .main__about__me {
     overflow: hidden;
-    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
 
     .main__container__about__me {
@@ -171,7 +175,9 @@
  .main__contacts {
     height: 100vh;
     overflow: hidden;
-    padding-top: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
 
  .main__container__contacts {
@@ -289,7 +295,9 @@
 
 .portfolio {
     height: 100vh;
-    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .portfolio > .wrapper {
@@ -309,7 +317,9 @@
 
 .services {
     overflow: hidden;
-    padding-top: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
 }
 
