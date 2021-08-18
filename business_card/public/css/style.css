@@ -57,6 +57,7 @@ header {
 .mainPage {
   overflow: hidden;
   padding-top: 33px;
+  height: 100vh;
 }
 
 .main__container__home {
@@ -101,6 +102,7 @@ header {
 .main__about__me {
   overflow: hidden;
   padding-top: 70px;
+  height: 100vh;
 }
 .main__about__me .main__container__about__me {
   display: flex;
