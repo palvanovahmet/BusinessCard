@@ -190,8 +190,9 @@ header {
 }
 
 .main__contacts {
+  height: 100vh;
   overflow: hidden;
-  padding-top: 40px;
+  padding-top: 140px;
 }
 
 .main__container__contacts {
@@ -289,6 +290,7 @@ header {
 }
 
 .portfolio {
+  width: 100vh;
   padding-top: 100px;
 }
 
@@ -306,7 +308,8 @@ header {
 
 .services {
   overflow: hidden;
-  padding-top: 70px;
+  padding-top: 170px;
+  height: 100vh;
 }
 
 .services__container {
@@ -368,6 +371,7 @@ header {
   height: 40px;
 }
 .services__container .service__info .service__card:hover {
+  transition: initial;
   padding: 15px;
   border: 5px solid #000;
 }
@@ -633,8 +637,7 @@ header {
 }
 footer {
   background: linear-gradient(45deg, #EECFBA, #C5DDE8);
-  padding-top: 30px;
-  height: 145px;
+  height: 100px;
 }
 footer .social__network {
   display: flex;

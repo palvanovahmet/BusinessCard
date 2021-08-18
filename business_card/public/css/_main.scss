@@ -166,8 +166,9 @@
  // ******************CONTACTS PAGE***************//
 
  .main__contacts {
+    height: 100vh;
     overflow: hidden;
-    padding-top: 40px;
+    padding-top: 140px;
  }
 
  .main__container__contacts {
@@ -284,6 +285,7 @@
 // ******************PORTFOLIO PAGE***************//
 
 .portfolio {
+    width: 100vh;
     padding-top: 100px;
 }
 
@@ -304,7 +306,8 @@
 
 .services {
     overflow: hidden;
-    padding-top: 70px;
+    padding-top: 170px;
+    height: 100vh;
 }
 
 .services__container {
@@ -375,13 +378,12 @@
         }
 
         .service__card:hover {
+            transition: initial;
             padding: 15px;
             border: 5px solid #000;
         }
     }
 }
-
-
 
 @media screen and (min-width: 1440px){
     .wrapper {
