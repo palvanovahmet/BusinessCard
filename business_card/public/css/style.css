@@ -329,10 +329,12 @@ header {
 }
 .services__container .service__info .service__card {
   width: 300px;
-  height: 320px;
+  height: 340px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 25px;
+  border: 5px solid transparent;
 }
 .services__container .service__info .service__card .service__price {
   font-size: 26px;
@@ -371,8 +373,7 @@ header {
   height: 40px;
 }
 .services__container .service__info .service__card:hover {
-  transition: initial;
-  padding: 15px;
+  padding: 25px;
   border: 5px solid #000;
 }
 
