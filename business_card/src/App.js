@@ -13,17 +13,17 @@ function App() {
     return(
         <div>
             <Header />
-            <Router>
-                {/* <Switch> */}
-                    <Route exact path="/" component={MainPage} />
-                    <Route exact path="/portfolio" component={Portfolio} />
-                    <Route exact path="/about" component={AboutMe} />
-                    <Route exact path="/contacts" component={Contacts} />
-                    <Route exact path="/services" component={Services} />
-                    <Route component={NotFound} />
-            {/* </Switch> */}
-        </Router>
-        <Footer />
+                <Router>
+                    <Switch>
+                        <Route exact path="/" component={MainPage} />
+                        <Route exact path="/portfolio" component={Portfolio} />
+                        <Route exact path="/about" component={AboutMe} />
+                        <Route exact path="/contacts" component={Contacts} />
+                        <Route exact path="/services" component={Services} />
+                        <Route component={NotFound} />
+                    </Switch>
+                </Router>
+            <Footer />
         </div>
     );
 }
