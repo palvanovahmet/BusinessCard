@@ -1,52 +1,573 @@
-/*
-Error: File to import not found or unreadable: _aboutMe.scss.
-       Load path: C:/Users/Palvanov/OneDrive/Desktop/New folder/BusinessCard/business_card/public/css
-        on line 75 of C:\Users\Palvanov\OneDrive\Desktop\New folder\BusinessCard\business_card\public\css\style.scss
+* {
+  padding: 0;
+  margin: 0;
+}
 
-70: 
-71: @import "_variables";
-72: @import "_header.scss";
-73: @import "_main.scss";
-74: @import "_footer.scss";
-75: @import "_aboutMe.scss";
+.back__gradient {
+  background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+}
 
-Backtrace:
-C:\Users\Palvanov\OneDrive\Desktop\New folder\BusinessCard\business_card\public\css\style.scss:75
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:67:in `rescue in import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:45:in `import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:28:in `imported_file'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:37:in `css_import?'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-C:/Program Files (x86)/Koala/bin/sass:22:in `load'
-C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: _aboutMe.scss.\A        Load path: C:/Users/Palvanov/OneDrive/Desktop/New folder/BusinessCard/business_card/public/css\A         on line 75 of C:\Users\Palvanov\OneDrive\Desktop\New folder\BusinessCard\business_card\public\css\style.scss\A \A 70: \A 71: @import \"_variables\";\A 72: @import \"_header.scss\";\A 73: @import \"_main.scss\";\A 74: @import \"_footer.scss\";\A 75: @import \"_aboutMe.scss\";"; }
+.circle {
+  width: 100%;
+  height: 100%;
+}
+
+.profile__picture {
+  width: 100%;
+  height: auto;
+}
+
+header {
+  padding-top: 40px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.header__container .logo {
+  font-size: 26px;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 20px;
+  font-weight: bold;
+}
+.header__container .header__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__container .header__links .header__menu {
+  display: flex;
+}
+.header__container .header__links .header__menu .menu__item {
+  list-style-type: none;
+  padding-right: 15px;
+}
+.header__container .header__links .header__menu .menu__item .links {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+}
+.header__container .header__links .header__menu .menu__item:last-child {
+  padding-right: 0px;
+}
+
+.mainPage {
+  overflow: hidden;
+}
+
+.main__container__home {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.main__container__home .about__me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 350px;
+  width: 43%;
+}
+.main__container__home .about__me span {
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Josefin Sans", sans-serif;
+  margin-bottom: 40px;
+}
+.main__container__home .about__me p {
+  text-align: justify;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+.main__container__home .about__me a {
+  width: 200px;
+  height: 30px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.main__about__me {
+  overflow: hidden;
+  padding-top: 70px;
+}
+.main__about__me .main__container__about__me {
+  display: flex;
+  justify-content: space-between;
+}
+.main__about__me .main__container__about__me .info__about__me {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.main__about__me .main__container__about__me .info__about__me h1 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.main__about__me .main__container__about__me .info__about__me p {
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 30px;
+}
+.main__about__me .main__container__about__me .skills__about__me {
+  width: 41.5%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main__about__me .main__container__about__me .skills__about__me .education {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  justify-content: space-between;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.main__about__me .main__container__about__me .skills__about__me .education .university, .main__about__me .main__container__about__me .skills__about__me .education .another__education {
+  display: flex;
+  flex-direction: column;
+}
+.main__about__me .main__container__about__me .skills__about__me .education .university span, .main__about__me .main__container__about__me .skills__about__me .education .another__education span {
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+}
+.main__about__me .main__container__about__me .skills__about__me .education .university p, .main__about__me .main__container__about__me .skills__about__me .education .another__education p {
+  font-size: 18px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.main__about__me .main__container__about__me .skills__about__me .education .another__education {
+  margin-top: 10px;
+}
+.main__about__me .main__container__about__me .skills__about__me .skills {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+.main__about__me .main__container__about__me .skills__about__me .skills .progress {
+  display: flex;
+  padding: 5px 0px 5px 0px;
+  justify-content: space-between;
+}
+.main__about__me .main__container__about__me .skills__about__me .skills .progress .progress__bar {
+  display: flex;
+  background: #fff;
+  width: 300px;
+  border: 1px solid #000;
+}
+.main__about__me .main__container__about__me .skills__about__me .skills .progress .progress__bar .photoshop {
+  width: 100%;
+  background: #000;
+}
+.main__about__me .main__container__about__me .skills__about__me .skills .progress .progress__bar .figma {
+  width: 80%;
+  background: #000;
+}
+.main__about__me .main__container__about__me .skills__about__me .skills .progress .progress__bar .illustrator {
+  width: 70%;
+  background: #000;
+}
+.main__about__me .main__container__about__me .skills__about__me .skills .progress .progress__bar .tilda {
+  width: 93%;
+  background: #000;
+}
+.main__about__me .main__container__about__me .skills__about__me .skills .progress .progress__bar .html, .main__about__me .main__container__about__me .skills__about__me .skills .progress .progress__bar .css {
+  width: 50%;
+  background: #000;
+}
+
+.main__contacts {
+  overflow: hidden;
+  padding-top: 40px;
+}
+
+.main__container__contacts {
+  width: 91.5%;
+  display: flex;
+  justify-content: space-around;
+}
+.main__container__contacts .discuss {
+  height: 450px;
+  border: 5px solid #000;
+  padding: 10px 50px 10px 50px;
+  display: flex;
+  flex-direction: column;
+}
+.main__container__contacts .discuss h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.main__container__contacts .discuss .input__line {
+  width: 100%;
+  height: 2px;
+  background: #000;
+}
+.main__container__contacts .discuss .default {
+  background: transparent;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  border: 0px;
+  margin: 15px 0px 15px 0px;
+  width: 100%;
+  height: 100px;
+}
+.main__container__contacts .discuss .business {
+  background: transparent;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  margin: 15px 0px 15px 0px;
+  width: 100%;
+  height: 90%;
+}
+.main__container__contacts .discuss .confirm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  width: 100%;
+  height: 160px;
+  font-size: 26px;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 10px auto;
+  color: #fff;
+  cursor: pointer;
+  border: 0px;
+}
+.main__container__contacts .contact__container {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
+.main__container__contacts .contact__container .container__line {
+  height: 5px;
+  border: 2px solid #000;
+  width: 100%;
+  background: #000;
+}
+.main__container__contacts .contact__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.main__container__contacts .contact__info .office, .main__container__contacts .contact__info .get__in__touch, .main__container__contacts .contact__info .social__network {
+  border: 2px solid #000;
+  padding: 15px;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 30px;
+}
+.main__container__contacts .contact__info .social__network .social__menu {
+  display: flex;
+  justify-content: space-between;
+}
+.main__container__contacts .contact__info .social__network .social__menu .social__items {
+  list-style-type: none;
+}
+.main__container__contacts .contact__info .social__network .social__menu .social__items a {
+  text-decoration: none;
+}
+.main__container__contacts .contacts__line {
+  width: 5px;
+  background: #000;
+  height: 100%;
+  border: 1px solid #000;
+}
+
+@media screen and (min-width: 1440px) {
+  .wrapper {
+    width: 1324px;
+    margin: 0 auto;
+  }
+
+  .avatar {
+    padding-right: 150px;
+  }
+}
+@media screen and (min-width: 1202px) and (max-width: 1439px) {
+  .wrapper {
+    width: 1101px;
+    margin: 0 auto;
+  }
+
+  .about__me {
+    width: 470px;
+  }
+}
+@media screen and (min-width: 1120px) and (max-width: 1201px) {
+  .wrapper {
+    width: 1040px;
+    margin: 0 auto;
+  }
+
+  .about__me {
+    width: 470px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1119px) {
+  .wrapper {
+    width: 964px;
+    margin: 0 auto;
+  }
+
+  .main__container {
+    padding-top: 70px;
+  }
+
+  .about__me {
+    width: 470px;
+  }
+}
+@media screen and (min-width: 941px) and (max-width: 1023px) {
+  .wrapper {
+    width: 890px;
+    margin: 0 auto;
+  }
+
+  .main__container {
+    padding-top: 60px;
+  }
+  .main__container .about__me {
+    height: auto;
+    width: 400px;
+  }
+  .main__container .about__me span {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 30px;
+  }
+  .main__container .about__me p {
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 890px) and (max-width: 940px) {
+  .wrapper {
+    width: 850px;
+    margin: 0 auto;
+  }
+
+  .main__container__home {
+    padding-top: 60px;
+  }
+  .main__container__home .about__me {
+    height: auto;
+    width: 350px;
+  }
+  .main__container__home .about__me span {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 30px;
+  }
+  .main__container__home .about__me p {
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 890px) {
+  .wrapper {
+    width: 738px;
+    margin: 0 auto;
+  }
+
+  .main__container__home {
+    padding-top: 60px;
+  }
+  .main__container__home .about__me {
+    height: auto;
+  }
+}
+@media screen and (min-width: 612px) and (max-width: 768px) {
+  .wrapper {
+    width: 571px;
+    margin: 0 auto;
+  }
+
+  .main__container__home {
+    position: relative;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+  .main__container__home .about__me {
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+  }
+  .main__container__home .about__me span {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .main__container__home .about__me p {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 24px;
+    margin-bottom: 40px;
+  }
+  .main__container__home .about__me a {
+    margin: 0 auto;
+    width: 200px;
+    height: 30px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 611px) {
+  .wrapper {
+    width: 405px;
+    margin: 0 auto;
+  }
+
+  .main__container__home {
+    position: relative;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+  .main__container__home .about__me {
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+  }
+  .main__container__home .about__me span {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .main__container__home .about__me p {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 24px;
+    margin-bottom: 40px;
+  }
+  .main__container__home .about__me a {
+    margin: 0 auto;
+    width: 200px;
+    height: 30px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .main__container__home {
+    padding-top: 50px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .main__container__home .about__me {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .main__container__home .about__me span {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .main__container__home .about__me p {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 24px;
+    margin-bottom: 40px;
+  }
+  .main__container__home .about__me a {
+    margin: 0 auto;
+    width: 200px;
+    height: 30px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-bottom: 30px;
+  }
+  .main__container__home .profile__picture {
+    width: 205px;
+    margin: 0 auto;
+  }
+}
+footer {
+  background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+  padding-top: 30px;
+  height: 145px;
+}
+footer .social__network {
+  display: flex;
+}
+footer .social__network li {
+  list-style-type: none;
+  padding: 20px;
+}
+footer .social__network a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .footer__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

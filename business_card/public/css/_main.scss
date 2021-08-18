@@ -1,9 +1,10 @@
+        // ******************HOMEPAGE***************//
 .mainPage {
     overflow: hidden;
 }
 
 .main__container__home {
-    padding-top: 120px;
+    padding-top: 100px;
     // @extend .wrapper;
     // @extend .display;
     display: flex;
@@ -47,6 +48,235 @@
     }
 }
 
+ // ******************ABOUT ME PAGE***************//
+.main__about__me {
+    overflow: hidden;
+    padding-top: 70px;
+    .main__container__about__me {
+        display: flex;
+        justify-content: space-between;
+
+        .info__about__me {
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column ;
+
+            h1 {
+                font-family: $ff__header;
+            }
+
+            p {
+                font-size: 20px;
+                font-family: $ff;
+                line-height: 30px;
+            }
+        }
+
+        .skills__about__me {
+            width: 41.5%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            // Education first column
+
+            .education {
+                display: flex;
+                flex-direction: column;
+                text-transform:uppercase;
+                justify-content: space-between;
+                height: 200px;
+                margin-bottom: 20px;
+                .university, .another__education {
+                    display: flex;
+                    flex-direction: column;
+                    
+                    span {
+                        padding-bottom: 10px;
+                        font-weight: bold;
+                        font-family: $ff;
+                    }
+
+                    p {
+                        font-size: 18px;
+                        font-family: $ff;
+                    }
+                }
+
+                .another__education {
+                    margin-top: 10px;
+                }
+
+                
+            }
+
+                // Skills -- second column
+                .skills {
+                    text-transform: uppercase;
+                    display: flex;
+                    flex-direction: column;
+                    width: 500px;
+
+                    .progress {
+                        display: flex;
+                        padding: 5px 0px 5px 0px;
+                        justify-content: space-between;
+
+                        .progress__bar {
+                            display: flex;
+                            background: #fff;
+                            width: 300px;
+                            border: 1px solid #000;
+
+                            .photoshop {
+                                width: 100%;
+                                background: #000;
+                            }
+                    
+                            .figma {
+                                width: 80%;
+                                background: #000;;
+                            }
+                    
+                            .illustrator {
+                                width: 70%;
+                                background: #000;;
+                            }
+                    
+                            .tilda {
+                                width: 93%;
+                                background: #000;;
+                            }
+                    
+                            .html, .css {
+                                width: 50%;
+                                background: #000;;
+                            }
+                        }
+                    }
+                }
+        }
+
+    }
+}
+
+ // ******************CONTACTS PAGE***************//
+
+ .main__contacts {
+    overflow: hidden;
+    padding-top: 40px;
+ }
+
+ .main__container__contacts {
+    width: 91.5%;
+    display: flex;
+    justify-content: space-around;
+    .discuss {
+        height: 450px;
+        border: 5px solid #000;
+        padding: 10px 50px 10px 50px;
+        display: flex;
+        flex-direction: column;
+        h1 {
+            font-family: $ff;
+            font-size: 30px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        
+        .input__line {
+            width: 100%;
+            height: 2px;
+            background: #000;
+        }
+
+        .default { 
+            background: transparent;
+            font-size: 20px;
+            font-family: $ff;
+            border: 0px;
+            margin: 15px 0px 15px 0px;
+            width: 100%;
+            height: 100px;
+        }
+
+        .business {
+            background: transparent;
+            font-family: $ff;
+            font-size: 20px;
+            margin: 15px 0px 15px 0px;
+            width: 100%;
+            height: 90%;
+        }
+
+        .confirm {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #000;
+            width: 100%;
+            height: 160px;
+            font-size: 26px;
+            font-family: $ff;
+            padding: 10px auto;
+            color: #fff;
+            cursor: pointer;
+            border: 0px;
+        }
+    }
+
+        .contact__container {
+            display: flex;
+            width: 30%;
+            justify-content: space-around;
+
+            .container__line {
+                height: 5px;
+                border: 2px solid #000;
+                width: 100%;
+                background: #000;
+            }
+        }
+
+        .contact__info {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .office, .get__in__touch, .social__network {
+                border: 2px solid #000;
+                padding: 15px;
+                font-size: 20px;
+                font-family: $ff;
+                line-height: 30px;
+            }
+
+            .social__network {
+
+                .social__menu {
+                    display: flex;
+                    justify-content: space-between;
+
+                    .social__items {
+                        list-style-type: none;
+
+                        a {
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        .contacts__line {
+            width: 5px;
+            background: #000;
+            height: 100%;
+            border: 1px solid #000;
+        }
+}
 
 @media screen and (min-width: 1440px){
     .wrapper {
