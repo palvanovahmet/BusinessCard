@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom';
+
 function Header() {
     return(
             <header>
@@ -16,11 +18,11 @@ function Header() {
     
                             <ul class="header__menu">
                                 
-                                <li class="menu__item"><a href="/" class="links">Главная страница</a></li>
-                                <li class="menu__item"><a href="/portfolio" class="links">Портфолио</a></li>
-                                <li class="menu__item"><a href="/about" class="links">О себе</a></li>
-                                <li class="menu__item"><a href="/contacts" class="links">Контакты</a></li>
-                                <li class="menu__item"><a href="/services" class="links">Услуги</a></li>
+                                <li class="menu__item"><Link to="/" class="links">Главная страница</Link></li>
+                                <li class="menu__item"><Link to="/portfolio" class="links">Портфолио</Link></li>
+                                <li class="menu__item"><Link to="/about" class="links">О себе</Link></li>
+                                <li class="menu__item"><Link to="/contacts" class="links">Контакты</Link></li>
+                                <li class="menu__item"><Link to="/services" class="links">Услуги</Link></li>
                             </ul>
     
                             <div class="burger__overlay">

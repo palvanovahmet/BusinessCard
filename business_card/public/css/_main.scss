@@ -298,10 +298,11 @@
 // ******************PORTFOLIO PAGE***************//
 
 .portfolio {
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .portfolio > .wrapper {
@@ -312,11 +313,56 @@
 }
 
 .main__container__portfolio {
-    border: 2px solid #000;
-    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
+.main__title__portfolio {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
+// *****************ProjectComponents************************//
+
+.project__container p {
+    justify-content: space-between;
+    display: flex;
+}
+
+.projects {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+  }
+  
+  .project__container {
+    border: 5px solid transparent;
+    padding: 10px;
+    margin: 10px;
+    width: auto;
+    height: 200px;
+    background: white;
+  }
+
+  .project__container:hover {
+    border: 5px solid #000;
+  }
+  
+//   .elementsName {
+//     display: flex;
+//     flex-direction: column;
+//   }
+
+  .services {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
 // ******************SERVICE PAGE***************//
 
 .services {

@@ -5,7 +5,7 @@ function Portfolio() {
             <main class="portfolio">
                 <div className="wrapper">
                     <div class="main__title__portfolio">
-                        <h1>Портфолио</h1>
+                        <h1>Projects</h1>
                     </div>
 
 

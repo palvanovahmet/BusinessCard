@@ -1,38 +1,102 @@
 function ProjectComponents() {
-    const projects = [{
-        name : 'nameofProject',
-        image : 'text'
-    }, 
+    const projectsObject = [
+
+        {
+            fullName : 'FirstProject',
+            image : 'source:pidrila.com'
+        },
+        
+        
+        {
+            fullName: 'SecondProject',
+            image : 'dolbitsya in ass'
+        },
+
+        {
+            fullName: 'ThirdProject',
+            image : 'lol'
+        },
+
+        {
+            fullName : 'FirstProject',
+            image : 'source:pidrila.com'
+        },
+        
+        
+        {
+            fullName: 'SecondProject',
+            image : 'dolbitsya in ass'
+        },
+
+        {
+            fullName: 'ThirdProject',
+            image : 'lol'
+        },
+
+        {
+            fullName : 'FirstProject',
+            image : 'source:pidrila.com'
+        },
+        
+        
+        {
+            fullName: 'SecondProject',
+            image : 'dolbitsya in ass'
+        },
+
+        {
+            fullName : 'FirstProject',
+            image : 'source:pidrila.com'
+        },
+        
+        
+        {
+            fullName: 'SecondProject',
+            image : 'dolbitsya in ass'
+        },
+
+        {
+            fullName: 'ThirdProject',
+            image : 'lol'
+        },
+
+        {
+            fullName : 'FirstProject',
+            image : 'source:pidrila.com'
+        },
+        
+        
+        {
+            fullName: 'SecondProject',
+            image : 'dolbitsya in ass'
+        },
+
+        {
+            fullName: 'ThirdProject',
+            image : 'lol'
+        },
+
+        {
+            fullName : 'FirstProject',
+            image : 'source:pidrila.com'
+        }
+    ];
     
-    {
-        name: 'name',
-        image : 'image'
-    }];
-    
-    function Unknown(data) {
-        return(
-            <div>
-                <div class="project__container">
-                 { data.image }
+    let projects = 
+    projectsObject.map( elements =>  {
+        return (
+            <div className="project__container">
+                <div className="elementsName">{elements.fullName} <br/> {elements.image}</div>
+            </div>  
+        )
+    });
 
-                
-                </div> 
-
-                <p>
-                    { data.name }
-                </p>
-            </div>
-            
-            
-        );
-    }
-
-    return(
+     return(
         <div>
             <div class="projects">
-                {projects.map(Unknown)}
                 
-               
+                { projects }           
+
             </div>
         </div> 
     );
